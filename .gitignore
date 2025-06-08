@@ -36,4 +36,3 @@ mvnw*
 
 # === ZIP / CSV GENERATED ===
 /eventos_csv.zip
-/back/data/eventos_*.csv
