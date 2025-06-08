@@ -1,0 +1,39 @@
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# === JAVA / MAVEN ===
+/back/target/
+/back/.idea/
+/back/.classpath
+/back/.project
+/back/.settings/
+/back/hs_err_pid*
+
+# Maven wrapper files (si usas mvnw)
+mvnw*
+/back/.mvn/
+
+# === REACT / NODE / VITE ===
+/client/node_modules/
+/client/dist/
+/client/.vite/
+
+# === ENV FILES ===
+.env
+.env.local
+.env.*.local
+
+# === OS / EDITOR / MISC ===
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+
+# === ZIP / CSV GENERATED ===
+/eventos_csv.zip
+/back/data/eventos_*.csv
